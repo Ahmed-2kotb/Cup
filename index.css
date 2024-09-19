@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .thimble {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+  }
+  
+  .marker {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+#thimble1.move {
+    transform: translateX(800px); 
+  }
+  
+  #thimble2.move {
+    transform: translateX(-100px); 
+  }
+  
+  #thimble3.move {
+    transform: translateX(-400px); 
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px; 
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .thimble {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+  }
+  
+  .marker {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 992px) {
+    #thimble1.move {
+      transform: translateX(800px); 
+    }
+  
+    #thimble2.move {
+      transform: translateX(-100px); 
+    }
+  
+    #thimble3.move {
+      transform: translateX(-400px);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    #thimble1.move {
+      transform: translateX(400px); 
+    }
+  
+    #thimble2.move {
+      transform: translateX(-50px);
+    }
+  
+    #thimble3.move {
+      transform: translateX(-100px); 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #thimble1.move {
+      transform: translateX(300px); 
+    }
+  
+    #thimble2.move {
+      transform: translateX(50px); 
+    }
+  
+    #thimble3.move {
+      transform: translateX(-200px); 
+    }
+  }
+  
